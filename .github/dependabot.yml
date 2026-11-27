@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Keeps the action and shared-workflow SHA pins current.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    cooldown:
+      default-days: 14
+    open-pull-requests-limit: 1

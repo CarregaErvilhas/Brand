@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "labels": {
+    "open": {
+      "pt": "Abrir o site",
+      "en": "Open the site"
+    },
+    "here": {
+      "pt": "Estás aqui",
+      "en": "You are here"
+    },
+    "code": {
+      "pt": "Código no GitHub",
+      "en": "Code on GitHub"
+    },
+    "private": {
+      "pt": "GitHub (privado, por agora)",
+      "en": "GitHub (private, for now)"
+    }
+  },
+  "sites": [
+    {
+      "id": "carro",
+      "name": {
+        "pt": "O Carro Elétrico",
+        "en": "O Carro Elétrico"
+      },
+      "host": "ocarroeletrico.com",
+      "url": "https://ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/OCarroEletrico",
+      "private": false,
+      "mascot": {
+        "file": "grupo/carro.svg",
+        "width": 270,
+        "height": 300,
+        "alt": {
+          "pt": "O carrinho repórter d'O Carro Elétrico, cor de laranja, com chapéu de imprensa e microfone",
+          "en": "O Carro Elétrico's little reporter car, orange, with a press hat and a microphone"
+        }
+      },
+      "desc": {
+        "pt": "A mobilidade elétrica em Portugal explicada a quem conduz: carregar em casa e na rua, condomínio, instalação, apoios e impostos. Cada facto com a lei e a fonte.",
+        "en": "Electric mobility in Portugal explained for drivers: charging at home and on the road, condos, installation, grants and tax. Every fact with the law and its source."
+      }
+    },
+    {
+      "id": "ohmigo",
+      "name": {
+        "pt": "ohmigo",
+        "en": "ohmigo"
+      },
+      "host": "ohmigo.ocarroeletrico.com",
+      "url": "https://ohmigo.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/ohmigo-mcp",
+      "private": false,
+      "mascot": {
+        "file": "grupo/ohmigo.svg",
+        "width": 260,
+        "height": 300,
+        "alt": {
+          "pt": "O ohmi, a ficha verde com cara do ohmigo",
+          "en": "Ohmi, ohmigo's green plug with a face"
+        }
+      },
+      "desc": {
+        "pt": "Pergunta ao ChatGPT ou ao Claude quanto custa carregar e onde fica mais barato. O ohmigo conhece os preços de todos os postos públicos do país, dentro e fora da rede MOBI.E.",
+        "en": "Ask ChatGPT or Claude what a charge costs and where it's cheapest. ohmigo knows the prices of every public charger in the country, on the MOBI.E network and off it."
+      },
+      "short": {
+        "pt": "Pergunta ao ChatGPT ou ao Claude quanto custa carregar e onde fica mais barato.",
+        "en": "Ask ChatGPT or Claude what charging costs and where it's cheapest."
+      }
+    },
+    {
+      "id": "voltaria",
+      "name": {
+        "pt": "Voltaria",
+        "en": "Voltaria"
+      },
+      "host": "voltaria.ocarroeletrico.com",
+      "url": "https://voltaria.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/voltaria",
+      "private": false,
+      "mascot": {
+        "file": "grupo/voltaria.svg",
+        "width": 260,
+        "height": 300,
+        "alt": {
+          "pt": "O livro azul do Voltaria, com um raio na capa",
+          "en": "Voltaria's blue book, with a lightning bolt on the cover"
+        }
+      },
+      "desc": {
+        "pt": "O conhecimento por trás dos outros: a lei, as normas e as regras da mobilidade elétrica em Portugal, escritas para assistentes de IA. Cada facto com a sua fonte.",
+        "en": "The knowledge behind the others: the law, the standards and the rules of electric mobility in Portugal, written for AI assistants. Every fact with its source."
+      },
+      "short": {
+        "pt": "A lei e as regras da mobilidade elétrica, escritas para assistentes de IA.",
+        "en": "The law and rules of electric mobility, written for AI assistants."
+      }
+    },
+    {
+      "id": "ceme",
+      "name": {
+        "pt": "Comparador CEME",
+        "en": "CEME comparator"
+      },
+      "host": "ceme.ocarroeletrico.com",
+      "url": "https://ceme.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/CEME",
+      "private": false,
+      "mascot": {
+        "file": "grupo/ceme.svg",
+        "width": 260,
+        "height": 300,
+        "alt": {
+          "pt": "A mascote do Comparador CEME, uma calculadora cor-de-rosa com um raio no ecrã",
+          "en": "The CEME comparator's mascot, a pink calculator with a lightning bolt on its screen"
+        }
+      },
+      "desc": {
+        "pt": "Compara os tarifários de quem te vende a energia na rede MOBI.E. Faz as contas com as tarifas de acesso às redes, o preço do mercado ibérico e os impostos, à hora a que carregas.",
+        "en": "Compares the tariffs of whoever sells you the energy on the MOBI.E network. It does the maths with the grid access tariffs, the Iberian market price and the taxes, at the hour you charge."
+      },
+      "short": {
+        "pt": "Compara os tarifários de quem te vende a energia na rede MOBI.E.",
+        "en": "Compare the tariffs of whoever sells you energy on the MOBI.E network."
+      }
+    },
+    {
+      "id": "nap",
+      "name": {
+        "pt": "Postos PT",
+        "en": "Postos PT"
+      },
+      "host": "nap.ocarroeletrico.com",
+      "url": "https://nap.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/nap-dashboard",
+      "private": false,
+      "mascot": {
+        "file": "grupo/nap.svg",
+        "width": 212,
+        "height": 252,
+        "alt": {
+          "pt": "O pino de mapa azul do Postos PT, com cara e um raio",
+          "en": "Postos PT's blue map pin, with a face and a lightning bolt"
+        }
+      },
+      "desc": {
+        "pt": "Todos os postos públicos que o Ponto de Acesso Nacional publica. Procura perto de ti, vê o estado ao vivo, as estatísticas da rede e os erros nos dados.",
+        "en": "Every public charger the National Access Point publishes. Search near you, see the live status, the network's statistics and the errors in the data."
+      },
+      "short": {
+        "pt": "Todos os postos públicos, com o estado ao vivo.",
+        "en": "Every public charger, with its live status."
+      }
+    },
+    {
+      "id": "oop",
+      "name": {
+        "pt": "olh'o'posto",
+        "en": "olh'o'posto"
+      },
+      "host": "olhaoposto.ocarroeletrico.com",
+      "url": "https://olhaoposto.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/OlhaOPosto",
+      "private": false,
+      "mascot": {
+        "file": "grupo/oop.svg",
+        "width": 168,
+        "height": 168,
+        "alt": {
+          "pt": "O Pic, a ficha Type 2 cor de âmbar do olh'o'posto, com uma objetiva e um flash",
+          "en": "Pic, olh'o'posto's amber Type 2 plug, with a lens and a flash"
+        }
+      },
+      "desc": {
+        "pt": "Fotos dos postos e das tomadas, tiradas pela comunidade. Cada posto tem um link que nunca muda, pelo ID oficial, para qualquer app ou mapa mostrar como é o posto antes de lá chegares.",
+        "en": "Photos of chargers and their sockets, taken by the community. Every charger has a link that never changes, by its official ID, so any app or map can show what it looks like before you get there."
+      },
+      "short": {
+        "pt": "Fotos dos postos e das tomadas, tiradas pela comunidade.",
+        "en": "Photos of chargers and their sockets, taken by the community."
+      }
+    },
+    {
+      "id": "pano",
+      "name": {
+        "pt": "Panoramax",
+        "en": "Panoramax"
+      },
+      "host": "panoramax.ocarroeletrico.com",
+      "url": "https://panoramax.ocarroeletrico.com/",
+      "repo": "https://github.com/CarregaErvilhas/OlhaOPosto/tree/main/panoramax",
+      "private": false,
+      "mascot": {
+        "file": "grupo/pano.svg",
+        "width": 1297,
+        "height": 1297,
+        "alt": {
+          "pt": "O logótipo do Panoramax",
+          "en": "The Panoramax logo"
+        }
+      },
+      "desc": {
+        "pt": "Onde ficam guardadas as fotos do olh'o'posto, com o mapa e o visualizador. É um servidor Panoramax, o software livre de fotos de rua que o OpenStreetMap usa, montado só para postos de carregamento.",
+        "en": "Where olh'o'posto's photos are stored, with the map and the viewer. It's a Panoramax server, the free street-photo software OpenStreetMap uses, set up for charging stations only."
+      },
+      "short": {
+        "pt": "Onde ficam as fotos do olh'o'posto, com o mapa.",
+        "en": "Where olh'o'posto's photos live, with the map."
+      }
+    },
+    {
+      "id": "ampere",
+      "name": {
+        "pt": "AmpereArchive",
+        "en": "AmpereArchive"
+      },
+      "host": "ohm-age.ocarroeletrico.com",
+      "url": null,
+      "repo": "https://github.com/CarregaErvilhas/AmpereArchive",
+      "private": true,
+      "mascot": {
+        "file": "grupo/ampere.svg",
+        "width": 280,
+        "height": 300,
+        "alt": {
+          "pt": "A caixa de arquivo roxa do AmpereArchive, de óculos e com um cronómetro",
+          "en": "AmpereArchive's purple archive box, with glasses and a stopwatch"
+        }
+      },
+      "desc": {
+        "pt": "Guarda a história dos postos. Lê o NAP a cada minuto e arquiva o que mudou, porque o NAP só mostra o presente. É daqui que o ohmigo tira o estado ao vivo e o Postos PT o histórico.",
+        "en": "Keeps the chargers' history. It reads the NAP every minute and archives what changed, because the NAP only shows the present. ohmigo gets its live status from here, and Postos PT its history."
+      },
+      "short": {
+        "pt": "Guarda a história dos postos, minuto a minuto.",
+        "en": "Keeps the chargers' history, minute by minute."
+      },
+      "note": {
+        "pt": "Não tem página para visitar: é um arquivo de dados que os outros leem.",
+        "en": "There's no page to visit: it's a data archive the others read."
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Every commit in a PR must carry a Signed-off-by matching its author. The check lives in
+# OCarroEletrico so the group shares one copy of the rule (its docs/shared-ci.md).
+name: DCO
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  dco:
+    uses: CarregaErvilhas/OCarroEletrico/.github/workflows/dco-check.yml@74ff022edf1f7bbaea86123d0ae6d8b3ef13cc54 # main
