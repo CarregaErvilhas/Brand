@@ -36,8 +36,8 @@ Todos os sites têm o que os motores de busca e os assistentes de IA precisam pa
 
 ## Tipografia
 
-- **Nunito** é a fonte do grupo. Vem no kit (`fonts/`, subconjunto latino, com a licença OFL) e é a do O Carro Elétrico, do Voltaria e do Postos PT. O ohmigo usa a fonte arredondada do sistema e cai para Nunito (`ui-rounded, "SF Pro Rounded", "Nunito", …`).
-- **Dois sites usam outra fonte.** O Comparador CEME usa Inter e a fonte do sistema. O olh'o'posto usa Space Grotesk, Inter e JetBrains Mono.
+- **Nunito** é a fonte do grupo. Vem no kit (`fonts/`, subconjunto latino, com a licença OFL) e é a do O Carro Elétrico, do Voltaria, do Postos PT e do Comparador CEME. O ohmigo usa a fonte arredondada do sistema e cai para Nunito (`ui-rounded, "SF Pro Rounded", "Nunito", …`).
+- **Um site usa outra fonte.** O olh'o'posto usa Space Grotesk, Inter e JetBrains Mono.
 - **Um site novo usa Nunito.**
 
 ## A página do grupo
