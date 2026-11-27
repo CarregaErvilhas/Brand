@@ -1,12 +1,23 @@
 # Brand
 
-The shared web furniture of the O Carro Elétrico group: the group page's text and site order, the sites' mascots, the "Instalar app" script and the Nunito font. One copy here; every site serves its own copy from its own origin, because their content security policies are same-origin and none of them has a build step that could fetch from elsewhere.
+The O Carro Elétrico group's brand: how the sites speak, look and name things, and the shared web furniture (the group page's text and site order, the mascots, the "Instalar app" script and the Nunito font). One copy here; every site serves its own copy from its own origin, because their content security policies are same-origin and none of them has a build step that could fetch from elsewhere.
 
-## What is here
+## The guides
+
+In European Portuguese, like the sites:
+
+| File | What |
+| --- | --- |
+| [`VOZ.md`](VOZ.md) | The voice: who speaks, the rules, the mascot speaking in the first person, spelling and names, what is banned |
+| [`MASCOTES.md`](MASCOTES.md) | How the mascots are drawn (the shared grammar), each one described, and how to make a new one |
+| [`NOMES.md`](NOMES.md) | Where each site's and mascot's name comes from, and how it is written |
+| [`DESIGN.md`](DESIGN.md) | The design language: technical rules, colour, type, the group page |
+
+## The files
 
 | Path | What | Used by |
 | --- | --- | --- |
-| `group.json` | The group's sites in page order: id, pt/en name, host, site and repo URL, `private` flag, pt/en description (`desc`), short line (`short`), note (`note`), mascot file, size and pt/en alt text. Also the four shared labels (`open`, `here`, `code`, `private`) | Every group page |
+| `group.json` | The group's sites in page order: id, pt/en name, host, site and repo URL, `private` flag, colour (the mascot's, the site's accent), pt/en description (`desc`), short line (`short`), note (`note`), mascot file, name (where it has one), size and pt/en alt text. Also the four shared labels (`open`, `here`, `code`, `private`) | Every group page |
 | `grupo/*.svg` | One mascot per site, plus `pano.svg`, the Panoramax logo | Every group page |
 | `install.js` | "Instalar app": puts the site on the home screen as a PWA. Each page brings its own markup; the script only decides what to show | The sites with an install button |
 | `fonts/nunito-latin.woff2`, `fonts/OFL-Nunito.txt` | Nunito, latin subset, with its licence | The sites set in Nunito |

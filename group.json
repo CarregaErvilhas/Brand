@@ -29,6 +29,7 @@
       "url": "https://ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/OCarroEletrico",
       "private": false,
+      "colour": "#ff6b4a",
       "mascot": {
         "file": "grupo/carro.svg",
         "width": 270,
@@ -53,7 +54,9 @@
       "url": "https://ohmigo.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/ohmigo-mcp",
       "private": false,
+      "colour": "#22c55e",
       "mascot": {
+        "name": "Ohmi",
         "file": "grupo/ohmigo.svg",
         "width": 260,
         "height": 300,
@@ -81,6 +84,7 @@
       "url": "https://voltaria.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/voltaria",
       "private": false,
+      "colour": "#2f5bd0",
       "mascot": {
         "file": "grupo/voltaria.svg",
         "width": 260,
@@ -109,6 +113,7 @@
       "url": "https://ceme.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/CEME",
       "private": false,
+      "colour": "#db2777",
       "mascot": {
         "file": "grupo/ceme.svg",
         "width": 260,
@@ -137,6 +142,7 @@
       "url": "https://nap.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/nap-dashboard",
       "private": false,
+      "colour": "#0284c7",
       "mascot": {
         "file": "grupo/nap.svg",
         "width": 212,
@@ -165,7 +171,9 @@
       "url": "https://olhaoposto.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/OlhaOPosto",
       "private": false,
+      "colour": "#f2b33d",
       "mascot": {
+        "name": "Pic",
         "file": "grupo/oop.svg",
         "width": 168,
         "height": 168,
@@ -193,6 +201,7 @@
       "url": "https://panoramax.ocarroeletrico.com/",
       "repo": "https://github.com/CarregaErvilhas/OlhaOPosto/tree/main/panoramax",
       "private": false,
+      "colour": "#8f2a85",
       "mascot": {
         "file": "grupo/pano.svg",
         "width": 1297,
@@ -221,6 +230,7 @@
       "url": null,
       "repo": "https://github.com/CarregaErvilhas/AmpereArchive",
       "private": true,
+      "colour": "#8b5cf6",
       "mascot": {
         "file": "grupo/ampere.svg",
         "width": 280,

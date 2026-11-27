@@ -84,6 +84,10 @@ def check_group():
                 err(f"{where}: a private site needs a note saying why there is no link")
         elif not (isinstance(url, str) and url.startswith("https://") and url.endswith("/")):
             err(f"{where}: url must be https://.../")
+        if not re.match(r"^#[0-9a-f]{6}$", str(s.get("colour", ""))):
+            err(f"{where}: colour must be #rrggbb, lower case")
+        if "name" in s.get("mascot", {}) and not str(s["mascot"]["name"]).strip():
+            err(f"{where}: mascot name empty")
         if not str(s.get("repo", "")).startswith("https://github.com/"):
             err(f"{where}: repo must be a GitHub URL")
         if not re.match(r"^[a-z0-9.-]+\.[a-z]+$", str(s.get("host", ""))):
