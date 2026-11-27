@@ -107,7 +107,7 @@
       "id": "ceme",
       "name": {
         "pt": "Comparador CEME",
-        "en": "CEME comparator"
+        "en": "EV Tariff Comparison"
       },
       "host": "ceme.ocarroeletrico.com",
       "url": "https://ceme.ocarroeletrico.com/",
@@ -120,7 +120,7 @@
         "height": 300,
         "alt": {
           "pt": "A mascote do Comparador CEME, uma calculadora cor-de-rosa com um raio no ecrã",
-          "en": "The CEME comparator's mascot, a pink calculator with a lightning bolt on its screen"
+          "en": "The EV Tariff Comparison mascot, a pink calculator with a lightning bolt on its screen"
         }
       },
       "desc": {

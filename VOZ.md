@@ -43,7 +43,7 @@ O título diz o que eu faço e quem faz o resto. Os outros sites são "os vizinh
 - **Inglês britânico** nas versões em inglês: neighbours, maths, colour.
 - **Nomes como as entidades os escrevem:** MOBI.E (em maiúsculas), DGEG, UVE, NAP, CEME, OPC, DPC.
 - **Termos do glossário do Voltaria** (`glossario.md` no Voltaria). Os anglicismos que lá estão (wallbox, eMSP, kilowatt) usam-se; os outros não ("charging" não).
-- **Os nomes dos sites escrevem-se sempre igual:** O Carro Elétrico (com "d'O" na contração), ohmigo (sempre em minúsculas, mesmo no início da frase), Voltaria, Comparador CEME ("CEME comparator" em inglês), Postos PT, olh'o'posto (minúsculas, com os dois apóstrofos), Panoramax, AmpereArchive.
+- **Os nomes dos sites escrevem-se sempre igual:** O Carro Elétrico (com "d'O" na contração), ohmigo (sempre em minúsculas, mesmo no início da frase), Voltaria, Comparador CEME ("EV Tariff Comparison" em inglês), Postos PT, olh'o'posto (minúsculas, com os dois apóstrofos), Panoramax, AmpereArchive.
 
 ## Proibido
 
