@@ -8,7 +8,24 @@ O que um site do grupo tem de ter para parecer do grupo, e o que fica à escolha
 - **Dois idiomas, português primeiro.** O O Carro Elétrico, o ohmigo, o Voltaria e o olh'o'posto põem a língua no URL: português em `/`, inglês em `/en/`. A língua vem do URL, não do browser, e as bandeiras levam à mesma página na outra língua. O Postos PT e o Comparador CEME trocam a língua na própria página. Um site novo põe a língua no URL.
 - **Tema claro e escuro.** Sem nada guardado, a página segue o sistema (`prefers-color-scheme`). O botão do tema guarda a escolha em `localStorage`, na chave `<site>.theme` (`oce.theme`, `ohmigo.theme`, `voltaria.theme`). Um script pequeno no `<head>` aplica-a antes da primeira pintura, para não piscar.
 - **Movimento reduzido.** Animações só com `prefers-reduced-motion: no-preference`.
-- **Instalável.** Manifesto PWA, ícones e o botão "Instalar app" no rodapé, com o `install.js` do kit. Cada página traz o markup do botão e do diálogo na sua língua; o script só decide o que mostrar.
+- **Instalável só onde se usa.** Os sites em que as pessoas fazem coisas (o Comparador CEME, o ohmigo, o Postos PT e o olh'o'posto) são PWA: manifesto, ícones e o botão "Instalar app" no rodapé, com o `install.js` do kit. Cada página traz o markup do botão e do diálogo na sua língua; o script só decide o que mostrar. Os sites de leitura (O Carro Elétrico, Voltaria) não têm botão nem `install.js`: ninguém instala um site que lê.
+
+## Encontrar e ler
+
+Todos os sites têm o que os motores de busca e os assistentes de IA precisam para os encontrar e citar:
+
+- **`llms.txt`** na raiz, no formato de [llmstxt.org](https://llmstxt.org/): o que o site é, as páginas que contam e, onde o site tem, a API ou o MCP. Um `llms-full.txt` com o texto todo onde o conteúdo é de ler (O Carro Elétrico, Postos PT).
+- **`sitemap.xml`** com todas as páginas nas duas línguas e o `lastmod` de cada uma, e **`robots.txt`** a apontar para ele.
+- **IndexNow** depois de cada deploy, com o workflow partilhado do OCarroEletrico (`docs/shared-ci.md`). O olh'o'posto ainda não o tem.
+- **Em cada página:**
+  - `<html lang>` certo;
+  - `<title>` até 60 caracteres e `<meta name="description">`;
+  - `<link rel="canonical">`;
+  - `hreflang` para pt, en e `x-default` (o pt), onde a língua está no URL;
+  - as etiquetas `og:` e `twitter:card`, com uma imagem de pré-visualização própria do site.
+- **JSON-LD** com o site (`WebSite`), a página e o grupo como editor: `"publisher": {"@type": "Organization", "name": "O Carro Elétrico", "url": "https://ocarroeletrico.com"}`.
+- **Página 404 própria,** na voz do site.
+- **O conteúdo está no HTML.** O texto lê-se sem JavaScript; o script só acrescenta (o tema, a pesquisa, o mapa).
 
 ## Cor
 
