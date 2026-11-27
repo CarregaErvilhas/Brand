@@ -4,7 +4,7 @@ The group's brand: the guides (`VOZ.md`, `MASCOTES.md`, `NOMES.md`, `DESIGN.md`)
 
 - English for README, AGENTS, code comments and commits. The four guides are in pt-PT. `group.json` texts are pt-PT (current spelling, "MOBI.E") and British English.
 - Write as `VOZ.md` says, here too. The guides describe what the sites do; where a site breaks a rule, say so in the guide rather than hiding it.
-- Never invent where a name comes from. A blank in `NOMES.md` stays "(por preencher)" until the maintainer fills it.
+- Never invent where a name comes from: a new one comes from the maintainer.
 - This repo is the owner. A site never edits its copy; it moves its `brand/` submodule pointer.
 - After any change: `python3 check.py --write-sums`, then `python3 check.py`. CI runs the same check.
 - `install.js` stays ASCII with English comments, byte-identical to what every site serves.
